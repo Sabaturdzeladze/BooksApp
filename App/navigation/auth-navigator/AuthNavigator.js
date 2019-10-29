@@ -1,6 +1,7 @@
 import {createStackNavigator} from 'react-navigation-stack';
 
 import defaultOptions from '../defaultOptions';
+import AuthScreen from '../../screens/AuthScreen';
 
 const AuthNavigator = createStackNavigator(
   {
